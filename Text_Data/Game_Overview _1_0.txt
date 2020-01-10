@@ -1,0 +1,171 @@
+preliminary:
+    learn C# environment
+    learn Unity environment
+    learn CiF
+    devise an appropriate plan before starting 
+    
+Time management:
+    32-40 hr work week
+    4:1 production:research
+    
+Development styles:
+    test-driven when practical
+    high levels of planning/engineering before coding (100% complete understanding before starting to code)
+    Document process while working
+    research scientific papers and real-world games 
+    
+Initial game development goal:
+    1. design a minimal game character and get it moving around the screen
+        a. requires Cif, C#, Unity.
+        b. characters should have a minimum personality
+
+Game Mechanics:
+    Visuals:
+        1. 2D or 2.5D
+        2. character portrait cards for PC/NPC when talking
+        3. setting: 
+            a. feel a little more urban when in the city area but still have a natural environment.
+            b. The natural environment should reflect a sense of loneliness and mystery.
+            c. maybe have locations with minimal color schemes (old GB color pokemon games) to reflect
+               the mood of a location. (cool colors, warm colors, monochromatic, greyscale)
+            d. include various elements that suggest that wildlife is near (bushes moving, splash in the water)
+        4. top-down rpg style
+        
+    Audio:
+        Less music, okay with strange music.
+        minimal noise: sometimes only the walking sounds or none at all
+        include nature sounds, mysterious sounds, city sounds
+        
+    Social interactions:
+        1. player portrait cards used for dialog
+        2. non-linear player social interactions --> CiF
+        3. Build a base model that can include all sentient beings
+        4. have a large number of tourist types that can offer much more than one phrase.
+            a. have personalities.
+            b. can be a significant source of the player's income.
+            c. maybe gain penpal status with these people
+            e. critique art, music, writing
+            f. requires that all game characters build the same way with the same social structure an rule
+    
+    Players play style
+        1. work/social balance
+            a. Where does the player spend their time?
+            b. working give more money but fewer friends and Vise-Versa
+                1. working should invoke unique social interactions (art shows, concerts, poetry readings, book releases/signings)
+        2. Socializing: the primary focus of the game.
+            a. most if not all of the mechanics for this should be hidden from the player
+                1. Stardew Valley has a series of hearts to inform the player of there relationships. I would like to
+                   Abandon any menus indicating the relationship status.
+                2. Perhaps only have two symbols indicating the relationship
+                    a. one might be a circle with a color in it.  Something like a mood ring.
+                        1. indicates current primary mood of the player
+                    b. the other might be a shape with a transparent color
+                        1. the color may suggest the primary relationship the player has with the character (enemy, friend, family)
+                            a. if the relationship is 40% friend, 30% enemy, 20% lover and 10% stranger the color will reflect friend
+                            b. it is up to the player to detect and/or alter this relationship 
+                        2. the opacity may indicate the strength of the relationship. 
+            b. In the context of social interactions, the game must reside in the content of the dialog
+                1. Don't use menus or a visible leveling system here.  It's all about the dialog
+                    a. the player decides when to ask another player out based on their intuition with a little help from
+                       the colored icon on the player's portrait.
+                2. Include nothing more than an address/log of NPCs with necessary information like their profession.
+            c. Devise a reward system for socializing. Idea listing (Why should someone spend the time to do it)
+                1. Boost careers through social channels
+                2. gain financial and item benefits
+                3. set up goals that the character strives for
+                    a. might be similar to the sims or prom week.
+                    b. social biased goals (lover, want to start a family, being the dandy) 
+            
+        3. players career: the minor focus
+            a. money does not come easy (like in the sims), not suitable for hoarding, should not focus on money.
+            b. Cost to live.
+                1. maybe no eating or drinking but getting a grocery bill
+                2. utilities, rent, working supplies all cost
+                3. these cost just enough to force the player to spend 25%(more or less) of their time working.
+            c. Start off with a chunk of money to get started.
+            d. all working professions are artistic in nature
+                1. include, at a minimum, a minigame to illustrate work completion.
+                    a. make more in-depth if able
+                2. slow work down to take days, weeks or even months to complete (depending on the profession 
+                   and funds the player has)
+                    a. there should be a sense of labor to create a work.
+                    b. This should be by the players choosing. (submitting underworked to overworked to the market)
+            e. Use leveling and menus for working
+                1. Let the game reside in menus and minigames here
+                2. Level up system for as much as possible
+                    a. levels reflect product quality, speed of production, and in-game player satisfaction.
+                    b. higher levels unlock new avenues or all avenues are unlocked but take higher levels to accomplish
+                        1. the latter can allow the actual player's skill to be taken into account                        
+            f. how to make money with each profession
+                1. Job board. Include listings for less attractive work like writing a technical manual or cat painting
+                    a. probably how everyone gets started
+                2. Direct sales to players
+                    a. gained by social interactions.
+                    b. tourist
+                3. Sales through local businesses.
+                    a. gain standing with a business through social means.
+                    b. The company will sell your work or advertise.
+                    c. business will keep a percentage of the selling price based on your social standing with them
+                4. Outside, unseen entities (outside art galleries, publishing houses ..etc.)
+                    a. reserved for players who take their career to the top.
+                    b. This requires substantial renown, thus a large pool of successful social interactions
+                    c. not represented by graphics in any way.
+            g. Choosing a profession before starting the game
+                1. Choose a profession when the game first starts (same location as pc graphics and name info)
+                2. gain a bonus in the career path. the minimum amount for money-generating purposes
+                    a. have other abilities as well, but will have to do them as a hobby before you are good enough to make
+                       money with them. 
+        
+        4. players lodging ideas:
+            a. I like Stardew on this point. Simple plain.
+            b. Maybe have house upgrades.
+            c. maybe rent a place in town before buying a house
+            d. have a rentable location for the more successful player to conduct their trade
+                1. possibly even hire someone
+                2. don't take this to far, not a tycoon game
+            
+        5. Time and game flow
+            1. The game should revolve around time. (much like Stardew valley)
+                a. slow time down compared to Stardew, perhaps an hour == a minute realtime
+                b. do not force players to sleep
+            2. include time-wasters like tv or reading
+                a. these don't benefit the characters in any way.
+                b. The sole purpose of these is to pass the time.
+                c. no real graphics included
+            3. sleep controls how well players perform.
+                a. players should sleep 8hrs a night to be at 100%
+                b. Any sleep debt causes all skills to decrement until they cannot perform them.
+                c. sleep debt should negatively affect social interactions
+                    1. increase the likelihood that pc comments are negative
+                    2. the less sleep, the worse the player's attitude becomes.
+                d. Rest should have some effect on every element in the game.  
+        
+        6. Dialog setup and flow
+            1. single text box of a fixe size for all text
+            2. generate dialog based on internal and external elements
+                a. this is the real difficulty that the game depends on
+            3. PC replies by choosing one choice of from many based on possible dialogs connected to internal and external
+               elements
+                a. pc shouldn't have to choose every time it is there turn to talk but happen very frequently.
+                b. NPCs dialog should result in the automation of picking from there list.
+                c. every chosen line of dialog is caused by CiF statistics
+                    1. an NPC blurts out that they love you after a duration of romance.
+                d. every chosen line of dialog affects the CiF statistics
+                    1. You tell the NPC you just want to be friends severely hurting them 
+                    2. effects of a situation vary in magnitude based on the circumstances
+                        a. can have temporary or permanent effects   
+        
+        7. Adventure modes
+            1. Reserved if the near-finished product is missing something that adventures can fill
+            2. NPCs can worry about the player that heads off on a dangerous task
+                a. I feel like an NPC worrying over a PC can cause the actual player to invest themselves in these characters
+        
+        8. The feel of the gameplay. 
+            1. Going for a relaxed relatively easy gameplay  with little stress involved
+            2. build relationships with characters the intern cause the actual player to become invested in the stories of
+               this fictional world
+            3. The overall theme will be more on the positive side
+                a. can have negative consequences. (Don't be a jerk)          
+            
+        
+ 
