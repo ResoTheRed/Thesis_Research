@@ -1,0 +1,8 @@
+Tan building1: 		frame size:384x192; frames: 1x4
+Green Building1: 	frame size:256x192; frames: 1x4
+Red Building1:	 	frame size:256x192; frames: 1x4
+Shop Building1:	 	frame size:384x128; frames: 1x3
+
+Art camp from:
+https://candacis.wordpress.com/#jp-carousel-55
+RPG Maker Assets
